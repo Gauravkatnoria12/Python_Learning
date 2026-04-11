@@ -8,5 +8,5 @@ def numbers(n) :
       print('Big number')
 
 
-numbers(int(input('Enter a number: ')))
+numbers(int(input('Enter a number btw 1 to 100: ')))
 

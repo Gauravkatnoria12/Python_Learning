@@ -7,3 +7,8 @@ fruits.discard("kiwi")         # Removing item (without any error if not found)
 
 print(fruits)
 
+'''
+Output :
+{'cherry', 'mango', 'grape', 'apple', 'orange'}
+
+'''

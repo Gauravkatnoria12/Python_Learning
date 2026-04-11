@@ -1,6 +1,11 @@
 sets = {1, 2, 3, 4, 5}
 print(sets)
 
+'''
+Output :
+{1, 2, 3, 4, 5}
+
+'''
 
 s = set()
 
@@ -24,3 +29,17 @@ n  = input("Enter a number: ")
 s.add(int(n))
 print(s)
 
+'''
+Output :
+Enter a number: 1
+Enter a number: 2
+Enter a number: 3
+Enter a number: 4
+Enter a number: 5
+Enter a number: 6
+Enter a number: 7
+Enter a number: 8
+Enter a number: 9
+Enter a number: 10
+{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+'''

@@ -78,3 +78,22 @@ print(lucky_numbers2)
 print("Bottom")
 
 
+'''
+Output :
+Top
+['Kevin', 'Harsh', 'Karen']
+Toby
+Mike
+['Harsh', 'Jass', 'Oscar']
+['Kevin', 'Harsh', 'Jass', 'Oscar', 'Toby', 4, 8, 12, 5]
+['Kevin', 'Harsh', 'Jass', 'Oscar', 'Toby', 'Creed']
+['Kelly', 'Kevin', 'Harsh', 'Jass', 'Oscar', 'Toby', 'Creed']
+['Kevin', 'Harsh', 'Oscar', 'Toby']
+1
+2
+['Harsh', 'Jass', 'Kevin', 'Oscar', 'Toby']
+[5, 12, 8, 4]
+[4, 8, 12, 5]
+Bottom
+
+'''

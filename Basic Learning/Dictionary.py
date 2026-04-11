@@ -17,3 +17,12 @@ monthconverions = {
 month = int(input("Enter a Month No. you want to see (1 to 12): "))
 print(monthconverions[month])
 
+'''
+Output : If we enter 1, the output will be January
+Enter a Month No. you want to see (1 to 12): 1
+January
+Also, if we enter 5, the output will be May
+Enter a Month No. you want to see (1 to 12): 5
+May
+
+''' 

@@ -1,16 +1,17 @@
 import random
 
-print("Welcome to Rock, Paper, Scissors!\n Please choose one of the following options:")
-print("1. Rock")
-print("2. Paper")
-print("3. Scissors")
-user_choice = int(input("Enter your choice (1, 2, or 3): "))
-
-moves = [1, 2, 3]
-computer_move = random.choice(moves)
-
+print("Welcome to Rock, Paper, Scissors!\nPlease choose one of the following options:")
+print("Enter 1 for Rock")
+print("Enter 2 for Paper")
+print("Enter 3 for Scissors")
+print("Enter 0 to exit the Game...")
 
 while 1:
+    user_choice = int(input("Enter your choice (1, 2, or 3): "))
+
+    moves = [1, 2, 3]
+    computer_move = random.choice(moves)
+
     if user_choice in [1, 2, 3]:
         if computer_move == 1 and user_choice == 1 :
             print("Tie! Computer chose Rock, you chose Rock")
@@ -32,6 +33,10 @@ while 1:
             print("Tie! Computer chose Scissors, you chose Scissors")
         else :
             print("Invalid choice! Please enter 1, 2, or 3.")
-    else:
+    elif user_choice == 0:
+        exit()
+    else :
         print("Invalid choice! Please enter 1, 2, or 3.")
+    
+        
 

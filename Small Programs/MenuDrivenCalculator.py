@@ -26,11 +26,10 @@ while(1):
   if choice == 4:
     a = int(input("Enter first no. : "))
     b = int(input("Enter second no. : "))
-    if b != 0:
-      print(f"😎 Result: {a / b}")
-    else :
-      print("Zero Division Error 😒")
+    try:
+      result = a / b
+      print(f"😎 Result: {result}")
+    except ZeroDivisionError:
+      print("You cannot divide by zero!")
   if choice == 5:
     sys.exit()
-
-

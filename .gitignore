@@ -1,3 +1,7 @@
 .vscode
 
 .idea
+
+tempCodeRunner.py
+
+__pycache__
